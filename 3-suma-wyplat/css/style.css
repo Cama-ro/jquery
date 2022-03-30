@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+}
+
+#employees {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+h3 {
+  margin-top: 2rem;
+}
+
+#count-sum {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem 2rem;
+  background-color: pink;
+  border: 2px solid rgb(228, 228, 228);
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  margin-top: 5rem;
+}
+
+#count-sum:hover {
+  background-color: rgb(248, 157, 172);
+}
