@@ -17,7 +17,8 @@ body {
 
 .accordion {
   background-color: #f8f8f8;
-  max-width: 600px;
+  /* max-width: 600px; */
+  width: 600px;
   margin: 0 auto;
   border: 3px double pink;
   line-height: 1.6;
